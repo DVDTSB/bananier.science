@@ -11,6 +11,10 @@
   -ms-transform: translateX(+50%);
   transform: translateX(+50%);
 }
+button{
+  background-color: transparent;
+  border: none;
+}
 @keyframes bananierstart{
   from {top: 0%; opacity: 0;}
   to {top: 40%; opacity: 1;}
@@ -83,6 +87,9 @@ h1{
   color : #221E17;
 }
 
+.hoverable:hover{
+  color:  #423C2D;
+}
 
 a:hover{
   color: #423C2D;

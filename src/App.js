@@ -13,7 +13,7 @@ function App() {
       <button onClick={()=>{
         window.open("https://ro.wikipedia.org/wiki/Bananier", "_blank")
       }}>
-        <h1><i>bananier</i></h1>
+        <h1 class="hoverable"><i>bananier</i></h1>
       </button>
     </div>
     </>
