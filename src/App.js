@@ -1,13 +1,7 @@
-import Header from "./Header";
-import LeButton from "./LeButton";
 function App() {
   return (
     <div>
-      <Header/>
-      <LeButton color="green"/>
-      <LeButton color="red"/>
-      <LeButton color="blue"/>
-      <LeButton color="black"/>
+      <h1 class="bananier"><i>bananier</i></h1>
     </div>
   );
 }
