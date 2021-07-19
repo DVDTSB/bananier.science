@@ -1,12 +1,11 @@
 .bananier {
-  color : black;
   position: absolute;
   animation-name: bananierstart;
   animation-duration: 4s;
   opacity: 0;
   animation-delay: 1s;
   animation-fill-mode: forwards;
-  font-size: 300%;
+  font-size: 150%;
   right: 50%;
   transform-origin: center;
   -ms-transform: translateX(+50%);
@@ -15,6 +14,78 @@
 @keyframes bananierstart{
   from {top: 0%; opacity: 0;}
   to {top: 40%; opacity: 1;}
+}
+
+.navbar{
+  right: 50%;
+}
+.element{
+  --stagger-delay:1s;
+}
+.element:nth-child(1){
+  left:12.5%;
+  position: absolute;
+  animation-name: elementstart;
+  animation-duration: 1s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  font-size: 150%;
+  transform-origin: center;
+  animation-delay : 1s;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.element:nth-child(2){
+  left:37.5%;
+  position: absolute;
+  animation-name: elementstart;
+  animation-duration: 1s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  font-size: 150%;
+  transform-origin: center;
+  animation-delay : 3s;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.element:nth-child(3){
+  left: 62.5%;
+  position: absolute;
+  animation-name: elementstart;
+  animation-duration: 1s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  font-size: 150%;
+  transform-origin: center;
+  animation-delay : 2s;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.element:nth-child(4){
+  left:87.5%;
+  position: absolute;
+  animation-name: elementstart;
+  animation-duration: 4s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  font-size: 150%;
+  transform-origin: center;
+  animation-delay : 3s;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+@keyframes elementstart{
+  from {top: 0%; opacity: 0;}
+  to {top: 5%; opacity: 1;}
+}
+
+h1{
+  color : #221E17;
+}
+
+
+a:hover{
+  color: #423C2D;
 }
 body{
   background-color: #FBEFB7;
