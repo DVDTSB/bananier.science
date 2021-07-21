@@ -29,7 +29,7 @@ button{
   animation-name: content;
   animation-duration: 6s;
   opacity: 0;
-  animation-delay: 1s;
+  animation-delay: 0s;
   animation-fill-mode: forwards;
 }
 .navbar{
