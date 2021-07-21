@@ -20,13 +20,14 @@ button{
   to {top: 40%; opacity: 1;}
 }
 @keyframes content{
-  from {top: 0%; opacity: 0;}
+  from {top: 100%; opacity: 0;}
   to {top: 10%; opacity: 1;}
 }
 .content{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   position: absolute;
   animation-name: content;
-  animation-duration: 4s;
+  animation-duration: 6s;
   opacity: 0;
   animation-delay: 1s;
   animation-fill-mode: forwards;
@@ -35,6 +36,7 @@ button{
   font-size: small;
 }
 .element{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   --stagger-delay:1s;
 }
 .element:nth-child(1){
@@ -95,6 +97,10 @@ button{
 }
 
 h1{
+  color : #221E17;
+}
+
+h2{
   color : #221E17;
 }
 
