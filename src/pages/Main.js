@@ -1,6 +1,7 @@
 function Main() {
   return (
     <>
+    <Navbar/>
     <div class="bananier">
       <button onClick={()=>{
         window.open("https://ro.wikipedia.org/wiki/Bananier", "_blank")

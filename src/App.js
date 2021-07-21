@@ -8,7 +8,6 @@ import UwU from "./pages/UwU";
 function App() {
   return (
     <Router>
-      <Navbar/>
       <Switch>
         <Route path="/" exact component={() => <Main />} />
         <Route path="/history" exact component={() => <History />} />
