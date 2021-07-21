@@ -1,22 +1,21 @@
+import Navbar from "./components/Navbar";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Main from "./pages/Main";
+import History from "./pages/History";
+import Why from "./pages/Why";
+import UwU from "./pages/UwU";
+
 function App() {
   return (
-    <>
-    <table>
-      <tr class="navbar"> 
-        <td class="element">aaaa</td>
-        <td class="element">uwu</td>
-        <td class="element">why</td>
-        <td class="element">help</td>
-      </tr>
-    </table>
-    <div class="bananier">
-      <button onClick={()=>{
-        window.open("https://ro.wikipedia.org/wiki/Bananier", "_blank")
-      }}>
-        <h1 class="hoverable"><i>bananier</i></h1>
-      </button>
-    </div>
-    </>
+    <Router>
+      <Navbar/>
+      <Switch>
+        <Route path="/" exact component={() => <Main />} />
+        <Route path="/history" exact component={() => <History />} />
+        <Route path="/why" exact component={() => <Why />} />
+        <Route path="/uwu" exact component={() => <UwU />} />
+      </Switch>
+    </Router>
   );
 }
 

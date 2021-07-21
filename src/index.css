@@ -19,9 +19,20 @@ button{
   from {top: 0%; opacity: 0;}
   to {top: 40%; opacity: 1;}
 }
-
+@keyframes content{
+  from {top: 0%; opacity: 0;}
+  to {top: 10%; opacity: 1;}
+}
+.content{
+  position: absolute;
+  animation-name: content;
+  animation-duration: 4s;
+  opacity: 0;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
 .navbar{
-  right: 50%;
+  font-size: small;
 }
 .element{
   --stagger-delay:1s;
@@ -91,8 +102,9 @@ h1{
   color:  #423C2D;
 }
 
-a:hover{
-  color: #423C2D;
+a{
+  text-decoration: none;
+  font-size: small;
 }
 body{
   background-color: #FBEFB7;
