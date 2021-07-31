@@ -37,77 +37,45 @@ button{
 }
 .element{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  --stagger-delay:1s;
+  --delay : 1s;
+  --number : 4;
+  position: absolute;
+  animation-name: elementstart;
+  animation-duration: 1s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  font-size: 150%;
+  transform-origin: center;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 .element:nth-child(1){
-  left:12.5%;
-  position: absolute;
-  animation-name: elementstart;
-  animation-duration: 1s;
-  opacity: 0;
-  animation-fill-mode: forwards;
-  font-size: 150%;
-  transform-origin: center;
-  animation-delay : 1s;
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
+  left:calc(100%/var(--number)*0.5);
+  animation-delay : 0s;
 }
 .element:nth-child(2){
-  left:37.5%;
-  position: absolute;
-  animation-name: elementstart;
-  animation-duration: 1s;
-  opacity: 0;
-  animation-fill-mode: forwards;
-  font-size: 150%;
-  transform-origin: center;
-  animation-delay : 3s;
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
+  left:calc(100%/var(--number)*1.5);
+  animation-delay : calc(var(--delay)*2);
 }
 .element:nth-child(3){
-  left: 62.5%;
-  position: absolute;
-  animation-name: elementstart;
-  animation-duration: 1s;
-  opacity: 0;
-  animation-fill-mode: forwards;
-  font-size: 150%;
-  transform-origin: center;
-  animation-delay : 2s;
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
+  left:calc(100%/var(--number)*2.5);
+  animation-delay : var(--delay);
 }
 .element:nth-child(4){
-  left:87.5%;
-  position: absolute;
-  animation-name: elementstart;
-  animation-duration: 4s;
-  opacity: 0;
-  animation-fill-mode: forwards;
-  font-size: 150%;
-  transform-origin: center;
-  animation-delay : 3s;
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
+  left:calc(100%/var(--number)*3.5);
+  animation-delay : calc(var(--delay)*3);
 }
 @keyframes elementstart{
   from {top: 0%; opacity: 0;}
   to {top: 5%; opacity: 1;}
 }
 
-h1{
+h1,h2{
   color : #221E17;
 }
-
-h2{
-  color : #221E17;
-}
-
 .hoverable:hover{
   color:  #423C2D;
 }
-
 a{
   text-decoration: none;
   font-size: small;
