@@ -8,7 +8,7 @@ function Sites() {
         <td class="element"><Link to="/"><h2 class="hoverable">main</h2></Link></td>
 				<td class="element"><Link to="/history"><h2 class="hoverable">history</h2></Link></td>
 				<td class="element"><h2 class="colored">othersites</h2></td>
-        <td class="element"><Link to="/uwu"><h2 class="hoverable">uwu</h2></Link></td>
+        <td class="element"><Link to="/aboutus"><h2 class="hoverable">aboutus</h2></Link></td>
     	</tr>
     </div>
     <div class="content">

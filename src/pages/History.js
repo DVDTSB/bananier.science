@@ -7,7 +7,7 @@ function History() {
         <td class="element"><Link to="/"><h2 class="hoverable">main</h2></Link></td>
 				<td class="element"><h2 class="colored">history</h2></td>
 				<td class="element"><Link to="/sites"><h2 class="hoverable">other sites</h2></Link></td>
-        <td class="element"><Link to="/uwu"><h2 class="hoverable">uwu</h2></Link></td>
+        <td class="element"><Link to="/aboutus"><h2 class="hoverable">about us</h2></Link></td>
     	</tr>
     </div>
     <div class="content">
