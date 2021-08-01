@@ -44,7 +44,6 @@ button{
   animation-duration: 1s;
   opacity: 0;
   animation-fill-mode: forwards;
-  font-size: 150%;
   transform-origin: center;
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -72,6 +71,12 @@ button{
 
 h1,h2{
   color : #221E17;
+}
+h2{
+  font-size: large;
+}
+.colored{
+  color: #423C2D;
 }
 .hoverable:hover{
   color:  #423C2D;
