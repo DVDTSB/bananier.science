@@ -8,7 +8,7 @@ function Element(props) {
                 <h1 class="hoverable">{props.title}</h1>
             </button>
             <br/>
-        <img src={props.source} alt={props.alt} width="500" height="500"/>
+        <img src={props.source} alt={props.alt} width="100%" height="100%"/>
         </center>
         <p>{props.text}</p>
     </article>
