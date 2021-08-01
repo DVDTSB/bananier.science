@@ -6,7 +6,7 @@ function UwU() {
       <tr class="navbar"> 
         <td class="element"><Link to="/"><h2 class="hoverable">main</h2></Link></td>
 				<td class="element"><Link to="/history"><h2 class="hoverable">history</h2></Link></td>
-				<td class="element"><Link to="/why"><h2 class="hoverable">why</h2></Link></td>
+				<td class="element"><Link to="/sites"><h2 class="hoverable">other sites</h2></Link></td>
 				<td class="element"><h2 class="colored">uwu</h2></td>
     	</tr>
     </div>

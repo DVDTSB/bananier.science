@@ -21,7 +21,7 @@ button{
 }
 @keyframes content{
   from {top: 100%; opacity: 0;}
-  to {top: 10%; opacity: 1;}
+  to {top: 20%; opacity: 1;}
 }
 .content{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -31,6 +31,10 @@ button{
   opacity: 0;
   animation-delay: 0s;
   animation-fill-mode: forwards;
+  right: 50%;
+  transform-origin: center;
+  -ms-transform: translateX(+50%);
+  transform: translateX(+50%);
 }
 .navbar{
   font-size: small;
@@ -83,8 +87,11 @@ h2{
 }
 a{
   text-decoration: none;
-  font-size: small;
+  font-size: large;
 }
 body{
   background-color: #FBEFB7;
+}
+.button-title{
+  font-size: large;
 }

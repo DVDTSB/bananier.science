@@ -6,7 +6,7 @@ function Main() {
       <tr class="navbar"> 
         <td class="element"><h2 class="colored">main</h2></td>
         <td class="element"><Link to="/history"><h2 class="hoverable">history</h2></Link></td>
-				<td class="element"><Link to="/why"><h2 class="hoverable">why</h2></Link></td>
+				<td class="element"><Link to="/sites"><h2 class="hoverable">other sites</h2></Link></td>
         <td class="element"><Link to="/uwu"><h2 class="hoverable">uwu</h2></Link></td>
     	</tr>
     </div>
