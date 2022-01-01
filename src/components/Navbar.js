@@ -28,7 +28,7 @@ function Navbar(props) {
       )}
       {props.page === "projects" ? (
         <td class="element">
-          <h2>spacek</h2>
+          <h2>projects</h2>
         </td>
       ) : (
         <td class="element">
