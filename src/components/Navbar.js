@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
+
 function Navbar(props) {
   return (
     <tr class="navbar">
       {props.page === "main" ? (
+
         <td class="element">
           <h2>main</h2>
         </td>
