@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 function Navbar(props) {
   return (
     <tr class="navbar">
-      {props.page == "main" ? (
+      {props.page === "main" ? (
         <td class="element">
           <h2>main</h2>
         </td>
@@ -13,7 +13,7 @@ function Navbar(props) {
           </Link>
         </td>
       )}
-      {props.page == "history" ? (
+      {props.page === "history" ? (
         <td class="element">
           <h2>history</h2>
         </td>
@@ -24,7 +24,7 @@ function Navbar(props) {
           </Link>
         </td>
       )}
-      {props.page == "projects" ? (
+      {props.page === "projects" ? (
         <td class="element">
           <h2>spacek</h2>
         </td>
@@ -35,7 +35,7 @@ function Navbar(props) {
           </Link>
         </td>
       )}
-      {props.page == "aboutus" ? (
+      {props.page === "aboutus" ? (
         <td class="element">
           <h2>about us</h2>
         </td>
