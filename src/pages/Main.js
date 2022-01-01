@@ -1,15 +1,9 @@
 import { Link } from "react-router-dom";
+import Navbar from "../components/Navbar";
 function Main() {
   return (
     <>
-    <div>
-      <tr class="navbar"> 
-        <td class="element"><h2 class="colored">main</h2></td>
-        <td class="element"><Link to="/history"><h2 class="hoverable">history</h2></Link></td>
-				<td class="element"><Link to="/sites"><h2 class="hoverable">other sites</h2></Link></td>
-        <td class="element"><Link to="/aboutus"><h2 class="hoverable">about us</h2></Link></td>
-    	</tr>
-    </div>
+    <Navbar page="main"/>
     <div class="bananier">
       <button onClick={()=>{
         window.open("https://ro.wikipedia.org/wiki/Bananier", "_blank")
