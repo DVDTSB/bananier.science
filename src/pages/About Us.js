@@ -13,7 +13,7 @@ function AboutUs() {
     </p>
     <h3>Who are we?</h3>
     <p>
-      DVDTSB (Tache David) is the creator of this website, he can make computer go beep boop.<br/>
+     David is the creator of this website, he can make computer go beep boop.<br/>
       Helpers:<br/>
        Ana, Clara, Ema, Iris, Luca, Mihnea, Noah, Radu, Rares
     </p>
